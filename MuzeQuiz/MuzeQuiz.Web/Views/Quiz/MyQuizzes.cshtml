@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MuzeQuiz.Models.Quiz>
+
+@{
+    ViewData["Title"] = "MyQuizzes";
+}
+
+<h1>MyQuizzes</h1>
+
+<p>
+    <a asp-action="CreateQuiz">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diff)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diff)
+            </td>
+            <td>
+                @Html.ActionLink("edit", "EditQuiz", new { /* id=item.PrimaryKey */ id = item.Id }) |
+                @Html.ActionLink("Questions", "Questions", new { /* id=item.PrimaryKey */ quizid = item.Id }) |
+                @Html.ActionLink("Delete", "DeleteQuiz", new { /* id=item.PrimaryKey */ id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

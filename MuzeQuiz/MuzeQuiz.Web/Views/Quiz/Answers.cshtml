@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MuzeQuiz.Models.Answer>
+
+@{
+    ViewData["Title"] = "Answers";
+}
+
+<h1>Answers</h1>
+
+<p>
+    <a asp-action="CreateAnswer" asp-route-questionid="@ViewBag.QstId ">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Answer_Text)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.YesNo)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCorrect)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Answer_Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YesNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsCorrect)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "DeleteAnswer", new { /* id=item.PrimaryKey */ id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

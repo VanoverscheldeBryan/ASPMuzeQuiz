@@ -1,0 +1,25 @@
+﻿@model MuzeQuiz.Web.ViewModels.fullQuiz
+
+@{
+    ViewData["Title"] = "PlayQuiz";
+    DateTime timestarted = DateTime.Now;
+}
+
+
+<h1>@Model.quizName</h1>
+
+<div>
+    <h4>@Model.quizQuestion.QuestionSelf</h4>
+    <hr />
+    <dl class="row">
+            @for (int i = 0; i < Model.answers.Count(); i++)
+            {
+                <dd class="col-sm-10">
+                    @Html.ActionLink(Model.answers[i].Answer_Text, "NextQuestion", new { quizId = Model.quizId, quizName = Model.quizName, qstnIndex = Model.QuestionIndex, date = timestarted, correct = Model.answers[i].IsCorrect, score = ViewBag.score })
+                </dd>
+            }
+    </dl>
+</div>
+<div>
+    <p>Score : @ViewBag.score</p>
+</div>

@@ -1,0 +1,20 @@
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.deps.json
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.dll
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.AssemblyInfoInputs.cache
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.AssemblyInfo.cs
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.csprojAssemblyReference.cache
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.runtimeconfig.json
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.runtimeconfig.dev.json
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.pdb
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.dll
+C:\Users\Victor Lemaire\source\repos\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.pdb
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.deps.json
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.runtimeconfig.json
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.runtimeconfig.dev.json
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.dll
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\bin\Debug\netcoreapp3.1\JAQ_BackendDev.Models.pdb
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.csprojAssemblyReference.cache
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.AssemblyInfoInputs.cache
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.AssemblyInfo.cs
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.dll
+C:\Users\Hawkeys\Desktop\HEREXAMENS 2e JAAR\Backend\JAQ_BackendDev\JAQ_BackendDev.Models\obj\Debug\netcoreapp3.1\JAQ_BackendDev.Models.pdb

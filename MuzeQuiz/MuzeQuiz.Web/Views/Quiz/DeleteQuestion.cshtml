@@ -1,0 +1,32 @@
+﻿@model MuzeQuiz.Models.Question
+
+@{
+    ViewData["Title"] = "DeleteQuestion";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Question</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.QuestionSelf)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.QuestionSelf)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+    </dl>
+    
+    <form asp-action="DeleteQuestion">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Questions" asp-route-quizid="@Model.QuizId">Back to List</a>
+    </form>
+</div>
