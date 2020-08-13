@@ -55,17 +55,17 @@ namespace MuzeQuiz.Models.Data
             }
 
             // add User
-            if (await userMgr.FindByEmailAsync("BryanV@user.be") == null)
+            if (await userMgr.FindByEmailAsync("Student@mct.be") == null)
             {
                 var user = new AppUser()
                 {
                     Id = Guid.NewGuid().ToString(),
-                    UserName = "BryanV@user",
-                    Firstname = "BryanV",
-                    Email = "BryanV@user.be"
+                    UserName = "Student@mct",
+                    Firstname = "Student",
+                    Email = "Student@mct.be"
                 };
 
-                var userResult = await userMgr.CreateAsync(user, "BryanV@1");
+                var userResult = await userMgr.CreateAsync(user, "Student@1");
                 var roleResult = await userMgr.AddToRoleAsync(user, "User");
 
                 if (!userResult.Succeeded || !roleResult.Succeeded)
