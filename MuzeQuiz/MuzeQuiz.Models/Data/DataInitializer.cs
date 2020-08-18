@@ -48,7 +48,7 @@ namespace MuzeQuiz.Models.Data
                         "Who is called GOAT in the rap industry ?",
                         "Who made the most cringy song that made his fame rise ?",
                         "Which artist has alot of numbers on his body ?",
-                        "Which dutch rapper is quit his show because someone throwed a beer at him ?",
+                        "Which dutch rapper quit his show because someone throwed a beer at him ?",
                         "Which DJ is number one in 2020 ?",
                         "With what song did Martin Garrix blow up ?",
                         "What is Hawkeys' first song release ?",
